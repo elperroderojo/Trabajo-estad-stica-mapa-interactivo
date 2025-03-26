@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eec3b1b3705dc96f04b5d630c70a2862 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eec3b1b3705dc96f04b5d630c70a2862" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eec3b1b3705dc96f04b5d630c70a2862 = L.map(
+                "map_eec3b1b3705dc96f04b5d630c70a2862",
+                {
+                    center: [-15.0, -70.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c12440e5e6b6af646341e58909f53661 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+            var circle_marker_9016450b73617cec8a454866743254b0 = L.circleMarker(
+                [-14.235, -51.9253],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 3}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+        var popup_cf52bb5478096c83c57bcd2b937e6de4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a53e3552ce62082d2156d108c64b647 = $(`<div id="html_2a53e3552ce62082d2156d108c64b647" style="width: 100.0%; height: 100.0%;">Brasil: 4500 muertes</div>`)[0];
+            popup_cf52bb5478096c83c57bcd2b937e6de4.setContent(html_2a53e3552ce62082d2156d108c64b647);
+        
+
+        circle_marker_9016450b73617cec8a454866743254b0.bindPopup(popup_cf52bb5478096c83c57bcd2b937e6de4)
+        ;
+
+        
+    
+    
+            var circle_marker_3e828b9a76bf99df6070f2f5bd6ef0bc = L.circleMarker(
+                [23.6345, -102.5528],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.0, "stroke": true, "weight": 3}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+        var popup_5ff7b6bfc5f6bd8dd4a4c3f7a3ff544c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d4b9c25bf6bd65a768caa9d1a9bbabf = $(`<div id="html_6d4b9c25bf6bd65a768caa9d1a9bbabf" style="width: 100.0%; height: 100.0%;">México: 1800 muertes</div>`)[0];
+            popup_5ff7b6bfc5f6bd8dd4a4c3f7a3ff544c.setContent(html_6d4b9c25bf6bd65a768caa9d1a9bbabf);
+        
+
+        circle_marker_3e828b9a76bf99df6070f2f5bd6ef0bc.bindPopup(popup_5ff7b6bfc5f6bd8dd4a4c3f7a3ff544c)
+        ;
+
+        
+    
+    
+            var circle_marker_8343a021006c5d85a72a19f7e27992de = L.circleMarker(
+                [-9.1899, -75.0152],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+        var popup_ce7f53795d9766526bf3eedee0f78f81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512941bd6594f8a9a3245292776f7506 = $(`<div id="html_512941bd6594f8a9a3245292776f7506" style="width: 100.0%; height: 100.0%;">Perú: 1200 muertes</div>`)[0];
+            popup_ce7f53795d9766526bf3eedee0f78f81.setContent(html_512941bd6594f8a9a3245292776f7506);
+        
+
+        circle_marker_8343a021006c5d85a72a19f7e27992de.bindPopup(popup_ce7f53795d9766526bf3eedee0f78f81)
+        ;
+
+        
+    
+    
+            var circle_marker_941afe6920d32f9b96913d4c3457cfac = L.circleMarker(
+                [4.5709, -74.2973],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.0, "stroke": true, "weight": 3}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+        var popup_b27c61a6bca083039e4eee444bcc2a53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c54b8203be7e7039b8a62046bba600db = $(`<div id="html_c54b8203be7e7039b8a62046bba600db" style="width: 100.0%; height: 100.0%;">Colombia: 900 muertes</div>`)[0];
+            popup_b27c61a6bca083039e4eee444bcc2a53.setContent(html_c54b8203be7e7039b8a62046bba600db);
+        
+
+        circle_marker_941afe6920d32f9b96913d4c3457cfac.bindPopup(popup_b27c61a6bca083039e4eee444bcc2a53)
+        ;
+
+        
+    
+    
+            var circle_marker_35502ecf5b1a5a5408f5bfa3ce30c04d = L.circleMarker(
+                [18.9712, -72.2852],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.6666666666666665, "stroke": true, "weight": 3}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+        var popup_ba8d51f518d7de6f089aee9d50631de5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2ec17eab1de3de081c5efec37dabec5 = $(`<div id="html_a2ec17eab1de3de081c5efec37dabec5" style="width: 100.0%; height: 100.0%;">Haití: 800 muertes</div>`)[0];
+            popup_ba8d51f518d7de6f089aee9d50631de5.setContent(html_a2ec17eab1de3de081c5efec37dabec5);
+        
+
+        circle_marker_35502ecf5b1a5a5408f5bfa3ce30c04d.bindPopup(popup_ba8d51f518d7de6f089aee9d50631de5)
+        ;
+
+        
+    
+    
+            var marker_18f27eae1f4032de5eea3840ed9b77e8 = L.marker(
+                [-30.0, -100.0],
+                {}
+            ).addTo(map_eec3b1b3705dc96f04b5d630c70a2862);
+        
+    
+            var icon_2299faab6334d941948d2ac098fa6dec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18f27eae1f4032de5eea3840ed9b77e8.setIcon(icon_2299faab6334d941948d2ac098fa6dec);
+        
+    
+        var popup_92c41f75432ea6111b6446b7c70ce95d = L.popup({"maxWidth": 300});
+
+        
+            var html_af188aafeee43d5f7779d46dde9f2187 = $(`<div id="html_af188aafeee43d5f7779d46dde9f2187" style="width: 100.0%; height: 100.0%;"> <h3>CBTIS 124</h3> <b>TB en las Américas (2023)</b><br> Probabilidad y Estadística<br> 6° "A"<br> Cruz López Randall Jared<br> Rodríguez Sarmiento Tristan Zaid </div>`)[0];
+            popup_92c41f75432ea6111b6446b7c70ce95d.setContent(html_af188aafeee43d5f7779d46dde9f2187);
+        
+
+        marker_18f27eae1f4032de5eea3840ed9b77e8.bindPopup(popup_92c41f75432ea6111b6446b7c70ce95d)
+        ;
+
+        
+    
+</script>
+</html>
